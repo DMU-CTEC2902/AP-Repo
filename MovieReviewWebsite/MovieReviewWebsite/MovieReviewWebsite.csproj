@@ -201,6 +201,7 @@
     <Compile Include="Models\clsActor.cs" />
     <Compile Include="Models\clsDirectors.cs" />
     <Compile Include="Models\clsFIlm.cs" />
+    <Compile Include="Models\clsGenre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
