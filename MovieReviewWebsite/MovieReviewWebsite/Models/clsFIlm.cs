@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MovieReviewWebsite.Models
 {
-    public class clsFIlm
+    public class clsFilm
     {
         public int FilmID{ get; set; }
         public string FilmName { get; set; }
@@ -14,5 +14,6 @@ namespace MovieReviewWebsite.Models
         public int ActorID { get; set; }
         public int GenreID { get; set; }
         public int DirectorID { get; set; }
+        public int Rating { get; set; }
     }
 }
