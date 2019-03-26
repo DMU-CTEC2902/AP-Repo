@@ -202,8 +202,15 @@
     <Compile Include="Models\clsActor.cs" />
     <Compile Include="Models\clsDirectors.cs" />
     <Compile Include="Models\clsFilm.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\FilmContext.cs" />
+    <Compile Include="Models\FilmDataInitialiser.cs" />
+    <Compile Include="Models\Films.cs" />
+    <Compile Include="Models\FilmUser.cs" />
+    <Compile Include="Models\Forum.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\clsUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
