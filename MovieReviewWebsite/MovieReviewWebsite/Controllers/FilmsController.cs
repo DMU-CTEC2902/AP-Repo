@@ -64,7 +64,7 @@ namespace MovieReviewWebsite.Controllers
             comment.Content = Request.Params["Comment"];
             comment.DirectorID = 1;
             comment.ActorID = 1;
-            comment.MovieID = id;
+            comment.FilmID = id;
             db.Comment.Add(comment);
             db.SaveChanges();
             List<Comment> lstComment = db.Comment.Where(c => c.FilmID == id).ToList();
@@ -72,7 +72,7 @@ namespace MovieReviewWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Film film = db.films.Find(id);//
+            clsFilm film = db.Films.Find(id);//
 
             int numerFilmu = films.filmID;//
 
@@ -80,15 +80,15 @@ namespace MovieReviewWebsite.Controllers
 
             foreach (clsDirectors movpers in mp)
             {
-                Director p2 = db.People.Find(movpers.DirectorID);
-                movie.People.Add(p2);
+                Director p2 = db.User.Find(movpers.DirectorID);
+                film.People.Add(p2);
             }
 
             if (film == null)
             {
                 return HttpNotFound();
             }
-            return View(movie);
+            return View(film);
         }
 
         // GET: Movies/Create
@@ -123,8 +123,8 @@ namespace MovieReviewWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
-            if (movie == null)
+            clsFilm film = db.Films.Find(id);
+            if (film == null)
             {
                 return HttpNotFound();
             }
@@ -154,12 +154,12 @@ namespace MovieReviewWebsite.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
-            if (movie == null)
+            clsFilm film = db.Movies.Find(id);
+            if (film == null)
             {
                 return HttpNotFound();
             }
-            return View(movie);
+            return View(film);
         }
 
         // POST: Movies/Delete/5
@@ -167,7 +167,7 @@ namespace MovieReviewWebsite.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            film film = db.film.Find(id);
+           clsFilm film = db.film.Find(id);
             db.films.Remove(films);
             db.SaveChanges();
             return RedirectToAction("Index");
