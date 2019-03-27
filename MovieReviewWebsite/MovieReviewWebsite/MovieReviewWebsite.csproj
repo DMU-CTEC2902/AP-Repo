@@ -262,6 +262,7 @@
     <Content Include="app.config" />
     <Content Include="Documentation\Diagrams\Project diagrams %28updated 3%29.EAP" />
     <Content Include="Documentation\EventTable_DetailedDescription\Film Review Documentation.docx" />
+    <Content Include="Documentation\Sketches\ScreenDesigns.pptx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -311,7 +312,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Documentation\Sketches\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
