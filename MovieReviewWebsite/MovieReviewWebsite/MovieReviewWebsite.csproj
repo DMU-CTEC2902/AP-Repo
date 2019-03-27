@@ -237,6 +237,7 @@
     <Content Include="Images\BatmanBegins.jpg" />
     <Content Include="Images\Captain_Marvel_poster.jpg" />
     <Content Include="Images\DieHard.jpg" />
+    <Content Include="Images\FilmReel.jpg" />
     <Content Include="Images\GetOut.jpg" />
     <Content Include="Images\HacksawRidge.jpg" />
     <Content Include="Images\HotFuzz.jpg" />
@@ -249,8 +250,10 @@
     <Content Include="Images\ShaunOfTheDead.jpg" />
     <Content Include="Images\Snatch.jpg" />
     <Content Include="Images\Spider-Man_Homecoming.jpg" />
+    <Content Include="Images\StarRating.jpg" />
     <Content Include="Images\Superbad.jpg" />
     <Content Include="Images\Tag.jpg" />
+    <Content Include="Images\TheatreFaces.jpg" />
     <Content Include="Images\TheConjuring.jpg" />
     <Content Include="Images\TheExorcist.jpg" />
     <Content Include="Images\TheThing.jpg" />
