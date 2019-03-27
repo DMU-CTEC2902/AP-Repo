@@ -229,6 +229,15 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\AmericanPie2.jpg" />
+    <Content Include="Images\Aquaman.jpg" />
+    <Content Include="Images\Captain_Marvel_poster.jpg" />
+    <Content Include="Images\LionKing.jpg" />
+    <Content Include="Images\Rushhour3.jpg" />
+    <Content Include="Images\Spider-Man_Homecoming.jpg" />
+    <Content Include="Images\Tag.jpg" />
+    <Content Include="Images\The_Grinch.jpg" />
+    <Content Include="Images\ToyStory.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config" />
