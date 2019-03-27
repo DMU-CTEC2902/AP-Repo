@@ -18,7 +18,6 @@ namespace MovieReviewWebsite.Controllers
             return View();
         }
 
-
         private FilmContext db = new FilmContext();
 
         // GET: Movies
