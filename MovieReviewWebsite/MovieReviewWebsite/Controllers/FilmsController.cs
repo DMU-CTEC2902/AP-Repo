@@ -12,6 +12,13 @@ namespace MovieReviewWebsite.Controllers
 {
     public class FilmsController : Controller
     {
+
+        public ActionResult FilmsList()
+        {
+            return View();
+        }
+
+
         private FilmContext db = new FilmContext();
 
         // GET: Movies
